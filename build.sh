@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t vistalab/rtppreproc:$1 ./
+docker build -t garikoitz/rtppreproc:$1 ./

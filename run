@@ -546,7 +546,7 @@ fi
 ## check for the output for success
 if [[ -f ${OUTPUT_DIR}/dwi.nii.gz ]]; then
     echo "Changing permissions"
-    chmod -R 755 ${OUTPUT_DIR} 
+    chmod -R 777 ${OUTPUT_DIR} 
     echo "$CONTAINER  Success!"
     exit 0
 else
